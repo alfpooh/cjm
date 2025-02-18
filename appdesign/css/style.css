@@ -1,0 +1,427 @@
+
+
+
+#section01{
+    height: 5727px;
+    background: #000;
+}
+
+#section01 .se01_bg{
+    width: 100vw;
+    height: 1375px;
+    background: url("../image/main/main_bg.png") no-repeat center/cover;
+}
+
+#section01 .logo01{
+    width: 190px;
+    height: 44px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -95px;
+    transition: all 1s;
+    opacity: 0;
+    transform: translateY(50px);
+}
+#section01 .logo01.on{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#section01 .logo02{
+    width: 597px;
+    height: 101px;
+    position: absolute;
+    top: 117px;
+    left: 50%;
+    margin-left: -299px;
+    transition: all 1s 0.3s;
+    opacity: 0;
+    transform: translateY(50px);
+}
+#section01 .logo02.on{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#section01 .logo03{
+    width: 108px;
+    height: 28px;
+    position: absolute;
+    top: 196px;
+    left: 50%;
+    margin-left: -54px;
+    transition: all 1s 0.5s;
+    opacity: 0;
+    transform: translateY(50px);
+}
+#section01 .logo03.on{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+#section01 .right_train{
+    width: 511px;
+    height: 661px;
+    position: absolute;
+    top: 768px;
+    right: -4px;
+    z-index: 10;
+}
+
+#section01 .left_train{
+    width: 612px;
+    height: 651px;
+    position: absolute;
+    top: 691px;
+    left: -20px;
+}
+
+#section01 .hotel{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    transition: all 3s 0.7s;
+    transform: translateY(100px);
+}
+
+#section01 .hotel.on{
+    transform: translateY(0);
+}
+
+#section01 .mountain01{
+    width: 1865px;
+    height: 789px;
+    position: absolute;
+    top: 1133px;
+    right: 0;
+    z-index: 20;
+    transform: translate(200px, 100px);
+}
+
+#section01 .mountain02{
+    width: 1048px;
+    height: 925px;
+    position: absolute;
+    top: 917px;
+    left: -6px;
+    z-index: 30;
+    transform: translateY(300px);
+}
+
+#section01 .cablecar_tree{
+    width: 537px;
+    height: 560px;
+    position: absolute;
+    top: 1500px;
+    left: -6px;
+    z-index: 40;
+    transform: translate(-100px, 80px);
+}
+
+#section01 .house{
+    width: 1436px;
+    height: 673px;
+    position: absolute;
+    top: 1331px;
+    right: -6px;
+    z-index: 50;
+    transform: scale(0.8) translate(200px, 100px);
+}
+
+#section01 .tree01{
+    width: 1180px;
+    height: 1528px;
+    position: absolute;
+    top: 1596px;
+    right: -10px;
+    z-index: 60;
+    transform: translate(100px, 230px);
+}
+
+#section01 .mountain03{
+    width: 1082px;
+    height: 737px;
+    position: absolute;
+    top: 1534px;
+    left: -51px;
+    z-index: 70;
+    transform: translate(-200px, 100px);
+}
+
+#section01 .point19{
+    width: 1169px;
+    height: 1129px;
+    position: absolute;
+    top: 1753px;
+    right: 0;
+    z-index: 80;
+    transform: translateY(300px);
+}
+
+#section01 .left_house{
+    width: 1308px;
+    height: 912px;
+    position: absolute;
+    top: 1835px;
+    left: -10px;
+    z-index: 100;
+    transform: scale(0.8) translateX(-350px);
+}
+
+#section01 .car{
+    width: 732px;
+    height: 317px;
+    position: absolute;
+    top: 2256px;
+    left: 167px;
+    z-index: 110;
+    transform: translateX(500px);
+    transition: all 3s;
+}
+#section01 .car.on{
+    transform: translateX(0);
+}
+
+
+#section01 .tree02 {
+    width: 1101px;
+    height: 1186px;
+    position: absolute;
+    top: 1892px;
+    left: 819px;
+    z-index: 90;
+}
+
+#section01 .mountain04 {
+    width: 1920px;
+    height: 677px;
+    position: absolute;
+    top: 2269px;
+    left: 0;
+    z-index: 130;
+    transform: translateY(200px);
+}
+
+#section01 .smalltree {
+    width: 545px;
+    height: 385px;
+    position: absolute;
+    top: 2195px;
+    right: 293px;
+    z-index: 120;
+}
+
+#section01 .mountain05{
+    width: 1920px;
+    height: 522px;
+    position: absolute;
+    top: 2633px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 140;
+}
+
+#section01 .mountain06{
+    width: 1491px;
+    height: 1086px;
+    position: absolute;
+    top: 2789px;
+    left: -50px;
+    z-index: 150;
+    transform: translate(-200px, 150px);
+}
+
+#section01 .funicular{
+    width: 184px;
+    height: 1119px;
+    position: absolute;
+    top: 2787px;
+    right: 625px;
+    z-index: 160;
+    transform: translateY(450px);
+}
+
+#section01 .building{
+    width: 1309px;
+    height: 897px;
+    position: absolute;
+    top: 3226px;
+    left: 0;
+    z-index: 170;
+    transform: scale(0.8) translate(-100px, 450px);
+}
+
+#section01 .road{
+    width: 1906px;
+    height: 1201px;
+    position: absolute;
+    top: 3823px;
+    right: 18px;
+    z-index: 190;
+}
+
+#section01 .front_tree{
+    width: 598px;
+    height: 241px;
+    position: absolute;
+    top: 3731px;
+    right: 0;
+    z-index: 200;
+}
+
+#section01 .tree03 {
+    width: 975px;
+    height: 1423px;
+    position: absolute;
+    top: 3662px;
+    left: -5px;
+    z-index: 180;
+    transform: translateX(-200px);
+}
+
+#section01 .front_tree02 {
+    width: 416px;
+    height: 294px;
+    position: absolute;
+    top: 3717px;
+    right: 366px;
+    z-index: 160;
+}
+
+#section01 .top_box02 {
+    width: 400px;
+    height: 838px;
+    position: absolute;
+    bottom: 972px;
+    right: 0;
+    z-index: 270;
+    transform: translateY(200px);
+}
+
+#section01 .top_box {
+    width: 628px;
+    height: 735px;
+    position: absolute;
+    bottom: 795px;
+    right: -3px;
+    z-index: 280;
+    transform: translateY(200px);
+}
+
+#section01 .middle_box {
+    width: 1920px;
+    height: 1172px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -960px;
+    z-index: 300;
+    transform: translateY(200px);
+}
+
+#section01 .front_box {
+    width: 1920px;
+    height: 382px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -960px;
+    z-index: 310;
+    transform: translateY(200px);
+
+}
+
+#section01 .part1 {
+    width: 692px;
+    height: 425px;
+    position: absolute;
+    top: 1300px;
+    right: 190px;
+    z-index: 45;
+    transform: translateY(200px);
+}
+#section01 .part1 img{
+    transition: all 1s;
+    transform: rotate(12deg);
+}
+#section01 .part1 img:hover{
+    transform: rotate(0);
+}
+
+#section01 .part2 {
+    width: 692px;
+    height: 426px;
+    position: absolute;
+    top: 1630px;
+    left: 70px;
+    z-index: 85;
+    transform: translateY(200px);
+}
+#section01 .part2 img{
+    transition: all 1s;
+    transform: rotate(-7deg);
+}
+#section01 .part2 img:hover{
+    transform: rotate(0);
+}
+
+#section01 .part3 {
+    width: 693px;
+    height: 427px;
+    position: absolute;
+    top: 2300px;
+    right: 75px;
+    z-index: 135;
+    transform: translateY(200px);
+}
+#section01 .part3 img{
+    transition: all 1s;
+    transform: rotate(-10deg);
+}
+#section01 .part3 img:hover{
+    transform: rotate(0);
+}
+
+#section01 .part4 {
+    width: 694px;
+    height: 426px;
+    position: absolute;
+    bottom: 2300px;
+    left: 130px;
+    z-index: 155;
+    transform: translateY(200px);
+}
+#section01 .part4 img{
+    transition: all 0.8s;
+    transform: rotate(12deg);
+}
+#section01 .part4 img:hover{
+    transform: rotate(0);
+}
+
+#section01 .part5 {
+    width: 694px;
+    height: 427px;
+    position: absolute;
+    bottom: 1000px;
+    right: 450px;
+    z-index: 195;
+    transform: translateY(200px);
+}
+#section01 .part5 img{
+    transition: all 0.8s;
+    transform: rotate(-10deg);
+}
+#section01 .part5 img:hover{
+    transform: rotate(0);
+}
+
+
+
+
+
+
+

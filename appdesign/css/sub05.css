@@ -1,0 +1,555 @@
+
+
+
+#section01 {
+    background: #000;
+    height: 4290px;
+}
+
+#section01 .menu {
+    width: 42px;
+    height: 32px;
+    top: 80px;
+    right: 80px;
+    position: absolute;
+}
+
+#section01 .top_title {
+    width: 626px;
+    height: 124px;
+    top: 135px;
+    position: absolute;
+    left: 50%;
+    margin-left: -313px;
+    transition: all 2s;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+#section01 .top_title.on {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#section01 .part_bg {
+    width: 1920px;
+    height: 755px;
+    top: 368px;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    transition: all 3s;
+    opacity: 0;
+}
+
+#section01 .part_bg.on {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#section01 .part05 {
+    width: 144px;
+    height: 58px;
+    top: 471px;
+    position: absolute;
+    left: 50%;
+    margin-left: -72px;
+    z-index: 50;
+    transition: all 2s 1s;
+    opacity: 0;
+}
+
+#section01 .part05.on {
+    opacity: 1;
+}
+
+#section01 .part_name {
+    width: 650px;
+    height: 382px;
+    top: 563px;
+    position: absolute;
+    left: 50%;
+    margin-left: -325px;
+    z-index: 50;
+    transition: all 2s 1.8s;
+    opacity: 0;
+}
+
+#section01 .part_name.on {
+    opacity: 1;
+}
+
+#main_img {
+    width: 1078px;
+    height: 728px;
+    top: 1536px;
+    left: 50%;
+    margin-left: -539px;
+    position: absolute;
+}
+
+#section01 .img01 {
+    top: 0;
+    position: absolute;
+}
+
+#section01 .img02 {
+    bottom: 0;
+    position: absolute;
+}
+
+#section01 .maintitle {
+    width: 639px;
+    height: 181px;
+    top: 1411px;
+    left: 378px;
+    position: absolute;
+}
+
+#section01 .maintext {
+    width: 839px;
+    height: 123px;
+    top: 2230px;
+    left: 376px;
+    position: absolute;
+}
+
+#module_box01{
+    width: 1401px;
+    height: 418px;
+    top: 2460px;
+    left: 50%;
+    margin-left: -700px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section01 .maintitle02 {
+    width: 358px;
+    height: 188px;
+    top: 3100px;
+    left: 264px;
+    position: absolute;
+}
+
+#section01 .maintext02 {
+    width: 893px;
+    height: 117px;
+    top: 3141px;
+    right: 295px;
+    position: absolute;
+}
+
+#module_box02{
+    width: 1400px;
+    height: 892px;
+    top: 3360px;
+    left: 50%;
+    margin-left: -700px;
+    position: absolute;
+}
+
+#module_box02 .module_box01 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#module_box02 .module_box02 {
+    position: absolute;
+    left: 602px;
+    top: 0;
+}
+
+#module_box02 .module_box03 {
+    position: absolute;
+    right: 274px;
+    top: 0;
+}
+
+#module_box02 .module_box04 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#module_box02 .module_box05 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#module_box02 .module_box06 {
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+}
+
+
+#section02 {
+    background: #000;
+    height: 2890px;
+}
+
+#section02 .line01 {
+    width: 382px;
+    height: 243px;
+    top: 269px;
+    left: 784px;
+    position: absolute;
+}
+
+#section02 .title {
+    width: 334px;
+    height: 189px;
+    top: 289px;
+    left: 50%;
+    margin-left: -167px;
+    position: absolute;
+}
+
+#section02 .text01 {
+    width: 343px;
+    height: 308px;
+    top: 852px;
+    left: 395px;
+    position: absolute;
+}
+
+#box01{
+    width: 1057px;
+    height: 499px;
+    top: 765px;
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section02 .frame {
+    width: 342px;
+    height: 401px;
+    top: 360px;
+    left: 113px;
+    position: absolute;
+}
+
+#section02 .img02 {
+    width: 777px;
+    height: 500px;
+    top: 1481px;
+    left: 260px;
+    position: absolute;
+}
+
+#section02 .line02 {
+    width: 295px;
+    height: 101px;
+    top: 1592px;
+    right: 370px;
+    position: absolute;
+}
+
+#section02 .text02 {
+    width: 402px;
+    height: 351px;
+    top: 1549px;
+    right: 369px;
+    position: absolute;
+}
+
+#section02 .img03 {
+    width: 706px;
+    height: 607px;
+    top: 2165px;
+    right: 262px;
+    position: absolute;
+}
+
+#section02 .line03 {
+    width: 204px;
+    height: 239px;
+    top: 2260px;
+    left: 595px;
+    position: absolute;
+}
+
+#section02 .text03 {
+    width: 472px;
+    height: 498px;
+    top: 2222px;
+    left: 354px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+#section03 {
+    background: #000;
+    height: 3833px;
+}
+
+
+#module_box03{
+    width: 1920px;
+    height: 1041px;
+    top: 159px;
+    position: absolute;
+}
+
+#module_box03 .module01 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#module_box03 .module02 {
+    position: absolute;
+    left: 590px;
+    top: 0;
+}
+
+#module_box03 .module03 {
+    position: absolute;
+    right: 449px;
+    top: 0;
+}
+
+#module_box03 .module04 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#module_box03 .module05 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#module_box03 .module06 {
+    position: absolute;
+    left: 590px;
+    bottom: 0;
+}
+
+#module_box03 .module07 {
+    position: absolute;
+    right: 449px;
+    bottom: 0;
+}
+
+#module_box03 .module08 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#section03 .lines01{
+    width: 758px;
+    height: 100px;
+    top: 1414px;
+    left: 50%;
+    margin-left: -379px;
+    position: absolute;
+}
+
+#section03 .lines02{
+    width: 636px;
+    height: 39px;
+    top: 1580px;
+    left: 50%;
+    margin-left: -318px;
+    position: absolute;
+}
+
+#section03 .lines03{
+    width: 557px;
+    height: 230px;
+    top: 1690px;
+    left: 50%;
+    margin-left: -278px;
+    position: absolute;
+}
+
+#text_box{
+    width: 1920px;
+    height: 1038px;
+    top: 2060px;
+    position: absolute;
+}
+#text_box > div{
+    margin-bottom: 50px;
+}
+
+#text_box .agatha_bg1 .inner{
+    display: flex;
+}
+
+#text_box .agatha_bg2 .inner{
+    display: flex;
+}
+
+#text_box .agatha_bg3 .inner{
+    display: flex;
+}
+
+#text_box .agatha_bg4 .inner{
+    display: flex;
+}
+
+#text_box .agatha_bg5 .inner{
+    display: flex;
+}
+
+#section03 .img01{
+    width: 1107px;
+    height: 822px;
+    top: 2162px;
+    left: 50%;
+    margin-left: -553px;
+    position: absolute;
+    z-index: 300;
+}
+#section03 .img01 .img_slide{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#section03 .lines04{
+    width: 509px;
+    height: 166px;
+    top: 3224px;
+    left: 50%;
+    margin-left: -255px;
+    position: absolute;
+}
+
+
+
+#section04 {
+    background: #000;
+    height: 2054px;
+}
+
+#section04 .character_bg{
+    width: 1920px;
+    height: 2054px;
+    top: 0;
+    position: absolute;
+}
+
+#character_box{
+    width: 1404px;
+    height: 987px;
+    top: 750px;
+    left: 50%;
+    margin-left: -702px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#character_box > div{
+    position: relative;
+}
+
+#character_box > div div{
+    transition: all 1s;
+}
+
+#character_box .key01{
+    position: absolute;
+    left: 50%;
+    top: 35px;
+    margin-left: -62px;
+    transform-origin: top;
+    transform: rotate(20deg);
+}
+
+#character_box .key02{
+    position: absolute;
+    left: 50%;
+    top: 35px;
+    margin-left: -62px;
+    transform-origin: top;
+    transform: rotate(10deg);
+}
+
+#character_box .actor03{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#character_box .actor_name03{
+    position: absolute;
+    left: 50%;
+    margin-left: -88px;
+    bottom: 105px;
+}
+
+#character_box .key04{
+    position: absolute;
+    left: 50%;
+    top: 35px;
+    margin-left: -62px;
+    transform-origin: top;
+    transform: rotate(10deg);
+}
+
+#character_box .actor05{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#character_box .actor_name05{
+    position: absolute;
+    left: 50%;
+    margin-left: -91px;
+    bottom: 105px;
+}
+
+#character_box .actor06{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+#character_box .actor_name06{
+    position: absolute;
+    left: 50%;
+    margin-left: -126px;
+    bottom: 105px;
+}
+
+#character_box .key07{
+    position: absolute;
+    left: 50%;
+    top: 35px;
+    margin-left: -62px;
+    transform-origin: top;
+    transform: rotate(10deg);
+}
+
+#character_box .key08{
+    position: absolute;
+    left: 50%;
+    top: 35px;
+    margin-left: -62px;
+    transform-origin: top;
+    transform: rotate(-5deg);
+}
+
+

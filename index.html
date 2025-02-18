@@ -22,41 +22,74 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        overflow-x: hidden;
+        overflow: hidden;
+      }
+
+      #wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
       }
 
       #container {
         transform: scale(0.75); /* 75%로 축소 */
         transform-origin: top center; /* 축소된 영역이 중앙 정렬되도록 설정 */
         width: 100%;
-        max-width: 1920px; /* 기존 컨테이너의 최대 너비 설정 */
+        max-width: 1920px;
         position: relative;
       }
     </style>
 </head>
 <body>
-    <section id="container">
-        <section id="section01">
-            <div class="bg_text">
-                <img src="imges/section01/bg_text.png" alt="">
-            </div>
-            <!-- 생략된 코드 -->
+    <div id="wrapper">
+        <section id="container">
+            <section id="section01">
+                <div class="bg_text">
+                    <img src="imges/section01/bg_text.png" alt="">
+                </div>
+                <div class="bg_faus">
+                    <img src="imges/section01/bg_faus.png" alt="">
+                </div>
+                <div class="mockup01">
+                    <img src="imges/section01/mockup01.png" alt="">
+                </div>
+                <div class="mockup02">
+                    <img src="imges/section01/mockup02.png" alt="">
+                </div>
+                <div class="used">
+                    <img src="imges/section01/used.png" alt="">
+                </div>
+            </section>
+            <section id="section02">
+                <div class="top05">
+                    <img src="imges/section02/top05.png" alt="">
+                </div>
+                <div class="persona">
+                    <img src="imges/section02/persona.png" alt="">
+                </div>
+            </section>
+            <section id="section03">
+                <div class="main_screen">
+                    <img src="imges/section03/main_screen.png" alt="">
+                </div>
+                <div class="menu">
+                    <img src="imges/section03/menu.png" alt="">
+                </div>
+            </section>
+            <section id="section04">
+                <div class="category">
+                    <img src="imges/section04/category.png" alt="">
+                </div>
+            </section>
+            <section id="footer">
+                <div class="footer_text">
+                    <img src="imges/section04/footer.png" alt="">
+                </div>
+            </section>
         </section>
-        <section id="section02">
-            <!-- 생략된 코드 -->
-        </section>
-        <section id="section03">
-            <!-- 생략된 코드 -->
-        </section>
-        <section id="section04">
-            <!-- 생략된 코드 -->
-        </section>
-        <section id="footer">
-            <div class="footer_text">
-                <img src="imges/section04/footer.png" alt="">
-            </div>
-        </section>
-    </section>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/plugin/gsap.js"></script>
@@ -66,4 +99,3 @@
     <script src="js/main.js"></script>
 </body>
 </html>
-

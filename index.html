@@ -13,68 +13,63 @@
     <script src="js/plugin/easing.js"></script>
 
     <style>
-      /*  Basic Styling to improve display - Remove/Modify to fit your actual CSS */
+      /* 기본 스타일 */
       body {
-        font-family: sans-serif;
         margin: 0;
         padding: 0;
+        background-color: #000; /* 바탕화면 검정색 */
+        font-family: sans-serif;
+      }
+      /* 전체 래퍼(wrapper) - 브라우저 폭 100% 사용, 수직 길이에 따라 확장 */
+      .wrapper {
+        width: 100%;
+        min-height: 100vh;       /* 내용이 적어도 화면 높이를 채울 수 있도록 */
+        overflow-x: auto;        /* 가로 스크롤 허용(잘리지 않고 모두 보기 위함) */
+        text-align: center;      /* inline-block 요소(#container)를 수평 중앙 배치 */
+        box-sizing: border-box;
       }
 
+      /* 실제 콘텐츠를 담는 컨테이너(원본 디자인 영역) */
+      #container {
+        display: inline-block;   /* text-align: center;로 가운데 정렬하기 위해 inline-block 사용 */
+        transform: scale(0.75);  /* 75%로 축소 */
+        transform-origin: top center; /* 축소 기준을 “위쪽 중앙”으로 */
+      }
+
+      /* 기존 CSS 그대로 유지 */
       section {
         padding: 20px; /* Add some padding around sections */
         box-sizing: border-box; /* Important: Include padding in element's total width and height */
       }
 
       img {
-        max-width: 100%;  /* Make images responsive - crucial! */
+        max-width: 100%;
         height: auto;
-        display: block; /* Removes extra space below images */
-        margin: 0 auto; /* Center images horizontally */
+        display: block;
+        margin: 0 auto;
       }
 
-      /* Example: Making videos responsive */
       video {
           max-width: 100%;
           height: auto;
           display: block;
       }
 
-      /*You need to adjust the sizes based on your design*/
       .swiper {
         width: 100%;
         height: auto;
       }
-
-      /* 
-          =========================================
-          아래부터 변경(추가)된 부분
-          =========================================
-      */
-      /* 1) 바탕화면을 검정색으로 지정하고, 2) 컨테이너를 가운데 정렬하기 위해 flex 사용 */
-      html, body {
-        width: 100%;
-        height: 100%;
-        background-color: #000; /* 바탕화면 검정색 */
-        display: flex; 
-        justify-content: center; /* 수평 중앙 정렬 */
-        align-items: flex-start; /* 상단부터 컨텐츠가 시작되도록 */
-      }
-
-      /* 3) #container에 scale(0.75) 적용 (75%로 축소)하고, 기준점을 위쪽 중앙으로 설정 */
-      #container {
-        transform: scale(0.75);
-        transform-origin: top center;
-      }
-
     </style>
-
 </head>
 <body>
 
-<button class="startPoint"></button>
-
-<section id="container">
-
+<div class="wrapper">
+  <!-- 
+    wrapper 내부에 #container를 배치
+    원본 HTML 구조는 #container 안쪽부터 그대로 유지 
+  -->
+  <section id="container">
+  
     <section id="section01">
         <!-- Content of section 01 -->
         <div class="bg_text">
@@ -194,9 +189,7 @@
         <div class="what_they_want_eng">
             <img src="imges/section01/what_they_want_eng.png" alt="">
         </div>
-
     </section>
-
 
     <section id="section02">
       <!-- Content of section 02 -->
@@ -342,7 +335,6 @@
 
     </section>
 
-
     <section id="section03">
         <!-- Content of section 03 -->
 
@@ -382,7 +374,6 @@
             </div>
         </div>
 
-
         <div class="plus">
             <img src="imges/section03/plus.png" alt="">
         </div>
@@ -396,7 +387,6 @@
                 <source src="video/main.mp4">
             </video>
         </div>
-
 
         <div class="main_screen">
             <img src="imges/section03/main_screen.png" alt="">
@@ -448,7 +438,6 @@
             </video>
         </div>
 
-
         <div class="time_img01">
             <img src="imges/section03/time_img01.png" alt="">
         </div>
@@ -487,7 +476,6 @@
             </video>
         </div>
 
-
         <div class="mypage">
             <img src="imges/section03/mypage.png" alt="">
         </div>
@@ -496,7 +484,6 @@
             <img src="imges/section03/mypage_img.png" alt="">
         </div>
     </section>
-
 
     <section id="section04">
         <!-- Content of section 04 -->
@@ -519,7 +506,6 @@
         <div class="category_mockup">
             <img src="imges/section04/category_mockup.png" alt="">
         </div>
-
 
         <div class="category_text1">
             <img src="imges/section04/category_text1.png" alt="">
@@ -614,8 +600,8 @@
       </div>
     </section>
 
-
-</section>
+  </section>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="js/plugin/gsap.js"></script>

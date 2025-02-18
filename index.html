@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Crucial for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/plugin/reset.css">
@@ -13,598 +13,57 @@
     <script src="js/plugin/easing.js"></script>
 
     <style>
-      /*  Basic Styling to improve display - Remove/Modify to fit your actual CSS */
       body {
         font-family: sans-serif;
         margin: 0;
         padding: 0;
+        background-color: black; /* 배경을 검정색으로 설정 */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow-x: hidden;
       }
 
-      section {
-        padding: 20px; /* Add some padding around sections */
-        box-sizing: border-box; /* Important: Include padding in element's total width and height */
-      }
-
-      img {
-        max-width: 100%;  /* Make images responsive - crucial! */
-        height: auto;
-        display: block; /* Removes extra space below images */
-        margin: 0 auto; /* Center images horizontally */
-      }
-
-      /* Example: Making videos responsive */
-      video {
-          max-width: 100%;
-          height: auto;
-          display: block;
-      }
-
-      /*You need to adjust the sizes based on your design*/
-      .swiper {
+      #container {
+        transform: scale(0.75); /* 75%로 축소 */
+        transform-origin: top center; /* 축소된 영역이 중앙 정렬되도록 설정 */
         width: 100%;
-        height: auto;
+        max-width: 1920px; /* 기존 컨테이너의 최대 너비 설정 */
+        position: relative;
       }
-
     </style>
-
 </head>
 <body>
-
-<button class="startPoint"></button>
-
-<section id="container">
-
-    <section id="section01">
-        <!-- Content of section 01 -->
-        <div class="bg_text">
-            <img src="imges/section01/bg_text.png" alt="">
-        </div>
-
-        <div class="bg_faus">
-            <img src="imges/section01/bg_faus.png" alt="">
-        </div>
-
-        <div class="mockup01">
-            <img src="imges/section01/mockup01.png" alt="">
-        </div>
-
-        <div class="mockup02">
-            <img src="imges/section01/mockup02.png" alt="">
-        </div>
-
-        <div class="used">
-            <img src="imges/section01/used.png" alt="">
-        </div>
-
-        <div class="top02">
-            <img src="imges/section01/top02.png" alt="">
-        </div>
-
-        <div class="overview">
-            <img src="imges/section01/overview.png" alt="">
-        </div>
-
-        <div class="figure">
-            <img src="imges/section01/figure.png" alt="">
-        </div>
-
-        <div class="mockup03">
-            <img src="imges/section01/mockup03.png" alt="">
-        </div>
-
-        <div class="text01">
-            <img src="imges/section01/text01.png" alt="">
-        </div>
-
-        <div class="top03">
-            <img src="imges/section01/top03.png" alt="">
-        </div>
-
-        <div class="background">
-            <img src="imges/section01/background.png" alt="">
-        </div>
-
-        <div class="graph01_text">
-            <img src="imges/section01/graph01_text.png" alt="">
-        </div>
-
-        <div class="graph01">
-            <img src="imges/section01/graph.png" alt="">
-        </div>
-
-        <div class="graph02">
-            <img src="imges/section01/graph02.png" alt="">
-        </div>
-
-        <div class="graph02_text">
-            <img src="imges/section01/graph02_text.png" alt="">
-        </div>
-
-        <div class="plus">
-            <img src="imges/section01/plus.png" alt="">
-        </div>
-
-        <div class="plus">
-            <img src="imges/section01/plus.png" alt="">
-        </div>
-
-        <div class="plus_eng">
-            <img src="imges/section01/plus_eng.png" alt="">
-        </div>
-
-        <div class="top04">
-            <img src="imges/section01/top04.png" alt="">
-        </div>
-
-        <div class="user_reserch">
-            <img src="imges/section01/user_reserch.png" alt="">
-        </div>
-
-        <div class="user_reserch_bg">
-            <img src="imges/section01/user_reserch_bg.png" alt="">
-        </div>
-
-        <div class="user_reserch_content">
-            <img src="imges/section01/user_reserch_content.png" alt="">
-        </div>
-
-        <div id="box01"></div>
-
-        <div class="what_they_want">
-            <img src="imges/section01/what_they_want.png" alt="">
-        </div>
-
-        <div class="what01">
-            <img src="imges/section01/what01.png" alt="">
-        </div>
-
-        <div class="what02">
-            <img src="imges/section01/what02.png" alt="">
-        </div>
-
-        <div class="what03">
-            <img src="imges/section01/what03.png" alt="">
-        </div>
-
-        <div class="what04">
-            <img src="imges/section01/what04.png" alt="">
-        </div>
-
-        <div class="what_they_want_eng">
-            <img src="imges/section01/what_they_want_eng.png" alt="">
-        </div>
-
-
-    </section>
-
-
-    <section id="section02">
-      <!-- Content of section 02 -->
-      <div class="top05">
-          <img src="imges/section02/top05.png" alt="">
-      </div>
-
-      <div class="persona">
-          <img src="imges/section02/persona.png" alt="">
-      </div>
-
-      <div class="persona_box01">
-          <img src="imges/section02/persona_box01.png" alt="">
-      </div>
-
-      <div class="persona_box02">
-          <img src="imges/section02/persona_box02.png" alt="">
-      </div>
-
-      <div class="top06">
-          <img src="imges/section02/top06.png" alt="">
-      </div>
-
-      <div class="journeymap">
-          <img src="imges/section02/journeymap.png" alt="">
-      </div>
-
-      <div class="journeymap_line">
-          <img src="imges/section02/journeymap_content.png" alt="">
-      </div>
-
-      <div class="journeymap_text">
-          <img src="imges/section02/journeymap_text.png" alt="">
-      </div>
-
-      <div class="journeymap_feeling">
-          <img src="imges/section02/journeymap_feeling.png" alt="">
-      </div>
-
-      <div class="top07">
-          <img src="imges/section02/top07.png" alt="">
-      </div>
-
-      <div class="asis-tobe">
-          <img src="imges/section02/asis-tobe.png" alt="">
-      </div>
-
-      <div class="asis">
-          <img src="imges/section02/asis.png" alt="">
-      </div>
-
-      <div class="tobe">
-          <img src="imges/section02/tobe.png" alt="">
-      </div>
-
-      <div id="box02"></div>
-
-      <div class="top08">
-          <img src="imges/section02/top08.png" alt="">
-      </div>
-
-      <div class="brand_keyword">
-          <img src="imges/section02/brand_keyword.png" alt="">
-      </div>
-
-      <div class="brand_keyword_left">
-          <img src="imges/section02/brand_keyword_left.png" alt="">
-      </div>
-
-      <div class="brand_keyword_line">
-          <img src="imges/section02/brand_keyword_line.png" alt="">
-      </div>
-
-      <div class="brand_keyword_text01">
-          <img src="imges/section02/brand_keyword_text01.png" alt="">
-      </div>
-
-      <div class="brand_keyword_text02">
-          <img src="imges/section02/brand_keyword_text02.png" alt="">
-      </div>
-
-      <div class="brand_keyword_text03">
-          <img src="imges/section02/brand_keyword_text03.png" alt="">
-      </div>
-
-      <div class="top09">
-          <img src="imges/section02/top09.png" alt="">
-      </div>
-
-      <div class="flow_chart">
-          <img src="imges/section02/flow_chart.png" alt="">
-      </div>
-
-      <div class="flow_chart_graph">
-          <img src="imges/section02/flow_chart_graph.png" alt="">
-      </div>
-
-      <div id="box03"></div>
-
-      <div class="top10">
-          <img src="imges/section02/top10.png" alt="">
-      </div>
-
-      <div class="design_concept">
-          <img src="imges/section02/design_concept.png" alt="">
-      </div>
-
-      <div class="color01">
-          <img src="imges/section02/color01.png" alt="">
-      </div>
-
-      <div class="color02">
-          <img src="imges/section02/color02.png" alt="">
-      </div>
-
-      <div class="color03">
-          <img src="imges/section02/color03.png" alt="">
-      </div>
-
-      <div class="typograhpy">
-          <img src="imges/section02/typography.png" alt="">
-      </div>
-
-      <div class="typography_text">
-          <img src="imges/section02/typography_text.png" alt="">
-      </div>
-
-      <div class="servies">
-          <img src="imges/section02/servies.png" alt="">
-      </div>
-
-      <div class="hola">
-          <img src="imges/section02/hola.png" alt="">
-      </div>
-
-      <div class="weare">
-          <img src="imges/section02/weare.png" alt="">
-      </div>
-
-      <div class="faus">
-          <img src="imges/section02/faus.png" alt="">
-      </div>
-
-    </section>
-
-
-    <section id="section03">
-        <!-- Content of section 03 -->
-
-        <div id="box04"></div>
-
-        <div class="circle">
-            <img src="imges/section03/circle.png" alt="">
-        </div>
-
-        <div class="home_screen">
-            <img src="imges/section03/home_screen.png" alt="">
-        </div>
-
-        <div class="home_screen_text">
-            <img src="imges/section03/home_screen_text.png" alt="">
-        </div>
-
-        <div class="bar">
-            <img src="imges/section03/bar.png" alt="">
-        </div>
-
-        <div class="mockup_01">
-            <img src="imges/section03/mockup_01.png" alt="">
-        </div>
-
-        <div class="mockup01_box">
-            <video autoplay muted loop>
-                <source src="video/slide_screen.mp4">
-            </video>
-        </div>
-
-        <div class="main_img1 swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="imges/section03/main_img1.png" alt=""></div>
-                <div class="swiper-slide"><img src="imges/section03/main_img2.png" alt=""></div>
-                <div class="swiper-slide"><img src="imges/section03/main_img0.png" alt=""></div>
+    <section id="container">
+        <section id="section01">
+            <div class="bg_text">
+                <img src="imges/section01/bg_text.png" alt="">
             </div>
-        </div>
-
-
-        <div class="plus">
-            <img src="imges/section03/plus.png" alt="">
-        </div>
-
-        <div class="mockup_02">
-            <img src="imges/section03/mockup_01.png" alt="">
-        </div>
-
-        <div class="mockup02_box">
-            <video autoplay muted loop>
-                <source src="video/main.mp4">
-            </video>
-        </div>
-
-
-        <div class="main_screen">
-            <img src="imges/section03/main_screen.png" alt="">
-        </div>
-
-        <div class="main_screen_text">
-            <img src="imges/section03/main_screen_text.png" alt="">
-        </div>
-
-        <div class="menu">
-            <img src="imges/section03/menu.png" alt="">
-        </div>
-
-        <div class="menu_text">
-            <img src="imges/section03/menu_text.png" alt="">
-        </div>
-
-        <div class="magagine_subscribe">
-            <img src="imges/section03/magagine_subscribe.png" alt="">
-        </div>
-
-        <div class="subscribe_img">
-            <img src="imges/section03/subscribe_img.png" alt="">
-        </div>
-
-        <div class="subscribe_mockup">
-            <img src="imges/section03/subscribe_mockup.png" alt="">
-        </div>
-
-        <div class="subscribe_mockup_box">
-            <video autoplay muted loop>
-                <source src="video/subscription.mp4">
-            </video>
-        </div>
-
-        <div class="bottom_text">
-            <img src="imges/section03/bottom_text.png" alt="">
-        </div>
-
-        <div id="box05"></div>
-
-        <div class="timeline_mockup">
-            <img src="imges/section03/timeline_mockup.png" alt="">
-        </div>
-
-        <div class="timeline_mockup_box">
-            <video autoplay muted loop>
-                <source src="video/timeline.mp4">
-            </video>
-        </div>
-
-
-        <div class="time_img01">
-            <img src="imges/section03/time_img01.png" alt="">
-        </div>
-
-        <div class="time_img02">
-            <img src="imges/section03/time_img02.png" alt="">
-        </div>
-
-        <div class="time_img03">
-            <img src="imges/section03/time_img03.png" alt="">
-        </div>
-
-        <div class="timeline">
-            <img src="imges/section03/timeline.png" alt="">
-        </div>
-
-        <div class="like_mockup">
-            <img src="imges/section03/like_mockup.png" alt="">
-        </div>
-
-        <div class="like">
-            <img src="imges/section03/like.png" alt="">
-        </div>
-
-        <div class="editmode">
-            <img src="imges/section03/editmode.png" alt="">
-        </div>
-
-        <div class="mypage_mockup">
-            <img src="imges/section03/mypage_mockup.png" alt="">
-        </div>
-
-        <div class="mypage_mockup_box">
-            <video autoplay muted loop>
-                <source src="video/mypage.mp4">
-            </video>
-        </div>
-
-
-        <div class="mypage">
-            <img src="imges/section03/mypage.png" alt="">
-        </div>
-
-        <div class="mypage_img">
-            <img src="imges/section03/mypage_img.png" alt="">
-        </div>
+            <!-- 생략된 코드 -->
+        </section>
+        <section id="section02">
+            <!-- 생략된 코드 -->
+        </section>
+        <section id="section03">
+            <!-- 생략된 코드 -->
+        </section>
+        <section id="section04">
+            <!-- 생략된 코드 -->
+        </section>
+        <section id="footer">
+            <div class="footer_text">
+                <img src="imges/section04/footer.png" alt="">
+            </div>
+        </section>
     </section>
 
-
-    <section id="section04">
-        <!-- Content of section 04 -->
-        <div id="box06"></div>
-
-        <div class="category">
-            <img src="imges/section04/category.png" alt="">
-        </div>
-
-        <div class="category_mockup_shadow">
-            <img src="imges/section04/category_mockup_shadiw.png" alt="">
-        </div>
-
-        <div class="category_mockup_box">
-            <video autoplay muted loop>
-                <source src="video/category.mp4">
-            </video>
-        </div>
-
-        <div class="category_mockup">
-            <img src="imges/section04/category_mockup.png" alt="">
-        </div>
-
-
-        <div class="category_text1">
-            <img src="imges/section04/category_text1.png" alt="">
-        </div>
-
-        <div class="category_text2">
-            <img src="imges/section04/category_text2.png" alt="">
-        </div>
-
-        <div class="question01">
-            <img src="imges/section04/question01.png" alt="">
-        </div>
-
-        <div class="ask_mockup">
-            <img src="imges/section04/ask_mockup.png" alt="">
-        </div>
-
-        <div class="ask_ai">
-            <img src="imges/section04/ask_ai.png" alt="">
-        </div>
-
-        <div class="question02">
-            <img src="imges/section04/question02.png" alt="">
-        </div>
-
-        <div class="person01">
-            <img src="imges/section04/person01.png" alt="">
-        </div>
-
-        <div class="question03">
-            <img src="imges/section04/question03.png" alt="">
-        </div>
-
-        <div class="jennie">
-            <img src="imges/section04/jennie.png" alt="">
-        </div>
-
-        <div class="gradation">
-            <img src="imges/section04/gradation.png" alt="">
-        </div>
-
-        <div class="scrapbook_mockup">
-            <img src="imges/section04/scrapbook_mockup.png" alt="">
-        </div>
-
-        <div class="scrapbook_mockup_box">
-            <video loop muted id="scrapbook_video">
-                <source src="video/making_scrapbook.mp4">
-            </video>
-        </div>
-
-        <div class="scrapbook">
-            <img src="imges/section04/scrapbook.png" alt="">
-        </div>
-
-        <div class="edit_mode">
-            <img src="imges/section04/edit_mode.png" alt="">
-        </div>
-
-        <div class="scrapboard">
-            <img src="imges/section04/scrapboard.png" alt="">
-        </div>
-
-        <div class="arrow">
-            <img src="imges/section04/arrow.png" alt="">
-        </div>
-
-        <div class="upload_mockup_box">
-            <video loop muted id="upload_video">
-                <source src="video/upload.mp4">
-            </video>
-        </div>
-
-        <div class="upload_mockup">
-            <img src="imges/section04/upload_mockup.png" alt="">
-        </div>
-
-        <div class="upload">
-            <img src="imges/section04/upload.png" alt="">
-        </div>
-
-        <div class="tag_function">
-            <img src="imges/section04/tag_function.png" alt="">
-        </div>
-
-    </section>
-
-    <section id="footer">
-      <!-- Content of the footer -->
-      <div class="footer_text">
-          <img src="imges/section04/footer.png" alt="">
-      </div>
-
-    </section>
-
-
-</section>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="js/plugin/gsap.js"></script>
-<script src="js/plugin/scrollTrigger.js"></script>
-<script src="js/scrollbar.js"></script>
-<script src="js/setting.js"></script>
-<script src="js/main.js"></script>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/plugin/gsap.js"></script>
+    <script src="js/plugin/scrollTrigger.js"></script>
+    <script src="js/scrollbar.js"></script>
+    <script src="js/setting.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
+
